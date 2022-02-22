@@ -1,23 +1,27 @@
-import logo from './logo.svg';
+import Stats from './components/Stats';
+import CountrySelector from './components/CountrySelector';
+import { createGlobalStyle } from 'styled-components';
 import './App.css';
+
+
+const GlobalStyle = createGlobalStyle `
+html {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+`;
 
 function App() {
   return (
+    
     <div className="App">
+    <GlobalStyle />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+</header>
+<main className="App-main">
+      
+<Stats url="https://covid19.mathdro.id/api"></Stats>
+<CountrySelector></CountrySelector>
+        </main>
     </div>
   );
 }
