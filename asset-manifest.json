@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/covidblackcountry/static/css/main.d129383d.css",
-    "main.js": "/covidblackcountry/static/js/main.555e1338.js",
+    "main.js": "/covidblackcountry/static/js/main.82444837.js",
     "index.html": "/covidblackcountry/index.html",
     "main.d129383d.css.map": "/covidblackcountry/static/css/main.d129383d.css.map",
-    "main.555e1338.js.map": "/covidblackcountry/static/js/main.555e1338.js.map"
+    "main.82444837.js.map": "/covidblackcountry/static/js/main.82444837.js.map"
   },
   "entrypoints": [
     "static/css/main.d129383d.css",
-    "static/js/main.555e1338.js"
+    "static/js/main.82444837.js"
   ]
 }
