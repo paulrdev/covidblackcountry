@@ -6,8 +6,8 @@ const { stats: countries, loading, error } = useStats('https://covid19.mathdro.i
 
 //default to USA
 const [selectedCountry, setSelectedCountry] = useState('USA');
-if (loading) return <p>Loading...</p>;
-  if (error) return <p>Error...</p>;
+if (loading) return "<p>Loading...</p>";
+  if (error) return "<p>Error...</p>";
 return (
 <div>
 <h2>Currently showing {selectedCountry}</h2>

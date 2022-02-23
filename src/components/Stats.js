@@ -9,6 +9,7 @@ grid-gap: 1rem;
 
 const StatBlock = styled.div`
 background: #f2f2f2;
+background: rgba(110,118,129,0.4);
 font-size: 2rem;
 padding: 2rem;
 border-radius: 2rem;
